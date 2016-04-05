@@ -1,10 +1,10 @@
 System setup
 ============
 
-| The SA Energy Research Database is hosted on a virtual server provided by UCT's eResearch team.
-| Contact person: Ashley Rustin
-| Log on to server with ``ssh user@xxx.xxx.xxx.xx`` .
-| Make sure you're operating in your root directory ``(/)`` not home directory ``(~)`` when working on the virtual machine.
+|  The SA Energy Research Database is hosted on a virtual server provided by UCT's eResearch team.
+|  Contact person: Ashley Rustin
+|  Log on to server with ``ssh user@xxx.xxx.xxx.xx`` .
+|  Make sure you're operating in your root directory ``(/)`` not home directory ``(~)`` when working on the virtual machine.
 
 Server configuration
 ********************
@@ -18,8 +18,8 @@ Git details
   git config user.name "SAEnergyData"
   git config user.email "*****"
 
-To pull plugins from github, a public key must be added and registered in your github account. Read about it here: https://help.github.com/articles/generating-a-new-ssh-key/#platform-linux .
-To use xclip on remote server log in to ssh session with ``-X`` option
+|  To pull plugins from github, a public key must be added and registered in your github account. Read about it here: https://help.github.com/articles/generating-a-new-ssh-key/#platform-linux .
+|  To use xclip on remote server log in to ssh session with ``-X`` option
 
 Add a local repository to GitHub
 ********************************
