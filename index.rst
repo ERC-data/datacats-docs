@@ -3,8 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to aerdb's documentation!
-=================================
+Setup for SA Energy Research Data Portal
+========================================
+Installing CKAN from datacats using docker images
+=================================================
+Complete installation instructions from datacats are available here: <http://docs.datacats.com/guide.html>
 
 Contents:
 
