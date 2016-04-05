@@ -1,10 +1,10 @@
 System setup
 ============
 
-The SA Energy Research Database is hosted on a virtual server provided by UCT's eResearch team.
-Contact person: Ashley Rustin
-Log on to server with ``ssh user@xxx.xxx.xxx.xx`` .
-Make sure you're operating in your root directory ``(/)`` not home directory ``(~)`` when working on the virtual machine.
+|The SA Energy Research Database is hosted on a virtual server provided by UCT's eResearch team.
+|Contact person: Ashley Rustin
+|Log on to server with ``ssh user@xxx.xxx.xxx.xx`` .
+|Make sure you're operating in your root directory ``(/)`` not home directory ``(~)`` when working on the virtual machine.
 
 Server configuration
 ********************
@@ -18,8 +18,8 @@ Git details
   git config user.name "SAEnergyData"
   git config user.email "*****"
 
-To pull plugins from github, a public key must be added and registered in your github account. Read about it here: https://help.github.com/articles/generating-a-new-ssh-key/#platform-linux .
-To use xclip on remote server log in to ssh session with ``-X`` option
+|To pull plugins from github, a public key must be added and registered in your github account. Read about it here: https://help.github.com/articles/generating-a-new-ssh-key/#platform-linux .
+|To use xclip on remote server log in to ssh session with ``-X`` option
 
 Add a local repository to GitHub
 ********************************
@@ -79,7 +79,8 @@ Create virtualenv with virtualenvwrapper::
 
 Install Docker from source
 **************************
-Follow all Docker install steps from https://docs.docker.com/engine/installation/linux/ubuntulinux/. The Docker port is 2375 and must be enabled. This should have been done during server configuration. DON'T INSTALL DOCKER WITH APT-GET as this Docker version is outdated and does not allow for a successful datacats install. Instead download the most recent version directly from Docker::
+Follow all Docker install steps from https://docs.docker.com/engine/installation/linux/ubuntulinux/. The Docker port is 2375 and must be enabled. This should have been done during server configuration. 
+|**Don't install docker with apt-get** as this Docker version is outdated and does not allow for a successful datacats install. |Instead download the most recent version directly from Docker::
 
   sudo apt-get update
   wget -qO- https://get.docker.com/ | sh
