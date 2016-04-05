@@ -14,6 +14,7 @@ Also follow additional recommended server setup steps: https://www.digitalocean.
 Git details
 ***********
 ::
+
   git config user.name "SAEnergyData"
   git config user.email "*****"
 
@@ -34,6 +35,7 @@ Full instructions available online https://help.github.com/articles/adding-an-ex
 Sync a fork with its upstream repository
 ****************************************
 ::
+
   #cd local directory
   git fetch upstream
   git checkout master
@@ -51,6 +53,7 @@ Detailed configuration settings for your firewall / ufw are available at https:/
 Folder structure
 *****************
 ::
+
   sudo mkdir /var/venvs #folder for virtual environments
   sudo mkdir /var/projects #projects folder
   chown -R user:www-data /var/venvs /var/projects #change folder ownership to grant the webserver access
