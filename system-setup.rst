@@ -1,8 +1,8 @@
 System setup
 ============
 
-The SA Energy Research Database is hosted on a virtual server provided by UCT's eResearch team.
-| Contact person: Ashley Rustin
+The SA Energy Research Database is hosted on a virtual server provided by UCT's eResearch team (contact person: Ashley Rustin)
+
 | Log on to server with ``ssh user@xxx.xxx.xxx.xx`` .
 | Make sure you're operating in your root directory ``(/)`` not home directory ``(~)`` when working on the virtual machine.
 
