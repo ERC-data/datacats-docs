@@ -19,7 +19,7 @@ Git details
   git config user.email "*****"
 
 To pull plugins from github, a public key must be added and registered in your github account. Read about it here: https://help.github.com/articles/generating-a-new-ssh-key/#platform-linux .
-To use xclip on remote server log in to ssh session with ``-X` option
+To use xclip on remote server log in to ssh session with ``-X`` option
 
 Add a local repository to GitHub
 ********************************
