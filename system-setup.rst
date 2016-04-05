@@ -3,12 +3,12 @@ System setup
 
 The SA Energy Research Database is hosted on a virtual server provided by UCT's eResearch team (contact person: Ashley Rustin)
 
-| Log on to server with ``ssh user@xxx.xxx.xxx.xx`` .
-| Make sure you're operating in your root directory ``(/)`` not home directory ``(~)`` when working on the virtual machine.
-
 Server configuration
 ********************
-Set up your server according to https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04.
+Log on to server with ``ssh user@xxx.xxx.xxx.xx`` .
+
+Set up your server according to https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04. Make sure you're operating in your root directory ``(/)`` not home directory ``(~)`` when working on the virtual machine.
+
 Also follow additional recommended server setup steps: https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers
 
 Git details
