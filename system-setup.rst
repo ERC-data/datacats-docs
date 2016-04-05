@@ -79,9 +79,7 @@ Create virtualenv with virtualenvwrapper::
 
 Install Docker from source
 **************************
-Follow all Docker install steps from https://docs.docker.com/engine/installation/linux/ubuntulinux/. The Docker port is 2375 and must be enabled. This should have been done during server configuration. 
-| **Don't install docker with apt-get** as this Docker version is outdated and does not allow for a successful datacats install. 
-| Instead download the most recent version directly from Docker::
+Follow all Docker install steps from https://docs.docker.com/engine/installation/linux/ubuntulinux/. The Docker port is 2375 and must be enabled. This should have been done during server configuration. **Don't install docker with apt-get** as this Docker version is outdated and does not allow for a successful datacats install. Instead download the most recent version directly from Docker::
 
   sudo apt-get update
   wget -qO- https://get.docker.com/ | sh
