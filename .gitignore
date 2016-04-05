@@ -1,0 +1,7 @@
+# Folders to ignore
+
+_build
+_static
+_templates
+
+
