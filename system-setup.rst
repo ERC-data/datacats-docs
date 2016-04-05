@@ -11,9 +11,9 @@ Server configuration
 Set up your server according to https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04.
 Also follow additional recommended server setup steps: https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers
 
-Git details::
+Git details
 ***********
-  
+::
   git config user.name "SAEnergyData"
   git config user.email "*****"
 
@@ -31,9 +31,9 @@ Full instructions available online https://help.github.com/articles/adding-an-ex
   git remote add origin remote-repository-URL #use 'upstream' instead of 'origin' when not own repo
   git push origin master
 
-Sync a fork with its upstream repository::
+Sync a fork with its upstream repository
 ****************************************
-
+::
   #cd local directory
   git fetch upstream
   git checkout master
@@ -48,9 +48,9 @@ Configure your firewall / ufw settings::
 
 Detailed configuration settings for your firewall / ufw are available at https://help.ubuntu.com/community/UFW.
 
-Folder structure::
+Folder structure
 *****************
-
+::
   sudo mkdir /var/venvs #folder for virtual environments
   sudo mkdir /var/projects #projects folder
   chown -R user:www-data /var/venvs /var/projects #change folder ownership to grant the webserver access
