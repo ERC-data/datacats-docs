@@ -14,7 +14,7 @@ Activate your virtual environment, then follow datacats source install to ensure
   #Initialise as local git repository 
   git remote add origin https://github.com/SAEnergyData/datacats.git
 
-Create datacats environment. The environment will live in ``/var/projects/ckan`` and the database in ``~/.datacats``::
+Create datacats environment. The environment will live in ``/var/projects/ckan`` and the database in ``~/.datacats`` ::
   
   datacats create --ckan latest aerdb 
   datacats reload --production --address=xxx.xxx.xxx.xx --site-url http://energydata.uct.ac.za aerdb 80 
@@ -41,7 +41,7 @@ After installing plugins they must be installed and datacats must be reloaded: :
 *************
 ckanext-pages
 *************
-Add static pages to CKAN.::
+Add static pages to CKAN. ::
 
   git clone git@github.com:ckan/ckanext-pages.git upstream
   cd aerdb/ckanext-pages/ckanext/pages    
@@ -63,13 +63,14 @@ Then add as local repository to GitHub to customise your fork.
 *****************
 ckanext-hierarchy
 *****************
-Enables organisational hierarchies to allow for parent and sub-organisations::
+Enables organisational hierarchies to allow for parent and sub-organisations ::
 
   git clone git@github.com:datagovuk/ckanext-hierarchy.git
 
 *********************
 ckanext-featuredviews
 *********************
+::
 
   git clone git@github.com:datacats/ckanext-featuredviews.git
 
@@ -77,14 +78,14 @@ ckanext-featuredviews
 ckanext-ytp-request
 *******************
 
-*Currently not used as there are several issues.*::
+*Currently not used as there are several issues.* ::
 
   git clone git@github.com:yhteentoimivuuspalvelut/ckanext-ytp-request
 
 In the latest ckan version new\_authz has been replaced with authz. Must replace references.
-Concerned files:
-``/project/ckanext-ytp-request/ckanext/ytp/request/auth.py``
-``/project/ckanext-ytp-request/ckanext/ytp/request/logic.py``
+|  Concerned files:
+|  ``/project/ckanext-ytp-request/ckanext/ytp/request/auth.py``
+|  ``/project/ckanext-ytp-request/ckanext/ytp/request/logic.py``
 
 ********************
 ckanext-datarequests
@@ -264,13 +265,11 @@ Remember to ``datacats reload`` after making changes to the config file.::
   
   [formatter_generic]
   format = %(asctime)s %(levelname)-5.5s [%(name)s] %(message)s
-  ```
-  
-  ### Config theme customisation
-  
-  Add the project theme directory to github for easy management
-  
-  ``` r
+
+Config theme customisation
+**************************  
+Add the project theme directory to github for easy management ::
+
   cd /var/projects/ckan/aerdb/ckanext-aerdbtheme
   touch .gitignore #create .gitignore file
   nano gitignore 
@@ -280,4 +279,4 @@ Remember to ``datacats reload`` after making changes to the config file.::
   build/*
   dist/*
 
-Then add as [local repository to GitHub](#L0)
+Then add as local repository to GitHub.
