@@ -1,10 +1,10 @@
 CKAN setup
 ==========
-Source install from github with virtualenvironment `project = ckan` and datacats `environment = aerdb`
+Source install from github with virtualenvironment ``project = ckan`` and datacats ``environment = aerdb``
 
 Datacats installation
 *********************
-Activate your virtual environment, then follow datacats source install to ensure that you are using the most up to date version ::
+Activate your virtual environment, then follow datacats source install to ensure that you are using the most up to date version: ::
   
   workon ckan
   git clone https://github.com/datacats/datacats.git upstream
@@ -14,13 +14,12 @@ Activate your virtual environment, then follow datacats source install to ensure
   #Initialise as local git repository 
   git remote add origin https://github.com/SAEnergyData/datacats.git
 
-Create datacats environment. The environment will live in ``/var/projects/ckan`` and the database in ``~/.datacats`` ::
+Create datacats environment. The environment will live in ``/var/projects/ckan`` and the database in ``~/.datacats``: ::
   
   datacats create --ckan latest aerdb 
   datacats reload --production --address=xxx.xxx.xxx.xx --site-url http://energydata.uct.ac.za aerdb 80 
 
 Some comments:
-
 -   use ``--ckan latest`` to ensure you're using the most up-to-date version
 -   must specify ``--production`` for the site to be available online
 
@@ -41,7 +40,7 @@ After installing plugins they must be installed and datacats must be reloaded: :
 *************
 ckanext-pages
 *************
-Add static pages to CKAN. ::
+Add static pages to CKAN ::
 
   git clone git@github.com:ckan/ckanext-pages.git upstream
   cd aerdb/ckanext-pages/ckanext/pages    
