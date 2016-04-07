@@ -230,41 +230,6 @@ Remember to ``datacats reload`` after making changes to the config file.::
   smtp.user = *****
   smtp.password = *****
   smtp.mail_from = *****
-  
-  ## Logging configuration
-  [loggers]
-  keys = root, ckan, ckanext
-  
-  [handlers]
-  keys = console
-  
-  [formatters]
-  keys = generic
-  
-  [logger_root]
-  level = WARNING
-  handlers = console
-  
-  [logger_ckan]
-  level = INFO
-  handlers = console
-  qualname = ckan
-  propagate = 0
-  
-  [logger_ckanext]
-  level = DEBUG
-  handlers = console
-  qualname = ckanext
-  propagate = 0
-  
-  [handler_console]
-  class = StreamHandler
-  args = (sys.stderr,)
-  level = NOTSET
-  formatter = generic
-  
-  [formatter_generic]
-  format = %(asctime)s %(levelname)-5.5s [%(name)s] %(message)s
 
 Config theme customisation
 **************************  
