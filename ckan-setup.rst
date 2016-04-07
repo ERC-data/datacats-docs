@@ -24,7 +24,7 @@ Some comments:
 -   use ``--ckan latest`` to ensure you're using the most up-to-date version
 -   must specify ``--production`` for the site to be available online
 
-If you get an ``AttributeError`` when trying to log in to your site you can fix it with the following workaround https://github.com/ckan/ckan/commit/a4de57e5>::
+If you get an ``AttributeError`` when trying to log in to your site you can fix it with the following workaround https://github.com/ckan/ckan/commit/a4de57e5 ::
 
   datacats shell
   pip freeze | grep lchemy
@@ -33,7 +33,7 @@ If you get an ``AttributeError`` when trying to log in to your site you can fix 
 
 CKAN Plugins
 ************
-<span style="color:red">After installing plugins they must be installed and datacats must be reloaded:</span>::
+After installing plugins they must be installed and datacats must be reloaded: ::
 
   datacats install
   datacats reload
