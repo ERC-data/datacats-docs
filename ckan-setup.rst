@@ -59,6 +59,7 @@ Add static pages to CKAN.::
   #Ctrl+X
 
 Then add as local repository to GitHub to customise your fork.
+
 *****************
 ckanext-hierarchy
 *****************
