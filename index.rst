@@ -5,6 +5,7 @@
 
 Setup for SA Energy Research Data Portal
 ========================================
+
 Installing CKAN from datacats using docker images
 #################################################
 Complete installation instructions from datacats are available here: http://docs.datacats.com/guide.html
@@ -26,4 +27,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
