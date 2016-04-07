@@ -58,7 +58,7 @@ Add static pages to CKAN.::
   extend_existing=True
   #Ctrl+X
 
-Then add as [local repository to GitHub](#L0) to customise your fork.
+Then add as local repository to GitHub to customise your fork.
 *****************
 ckanext-hierarchy
 *****************
@@ -99,7 +99,7 @@ ckanext-datarequests
   extend_existing=True
   #Ctrl+X
 
-Then add as [local repository to GitHub](#L0) to customise your fork.
+Then add as local repository to GitHub to customise your fork.
 
 **************
 ckanext-disqus
